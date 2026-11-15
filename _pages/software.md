@@ -32,7 +32,7 @@ nav_order: 4
     <div class="card-links">
       <a href="https://adamsmp92.github.io/MuMag2022_python/">Open web app</a>
       <a href="https://github.com/AdamsMP92/MuMag2022_python">GitHub repository</a>
-      <a href="https://doi.org/10.1107/S1600576722005349">Publication</a>
+      <a href="https://doi.org/10.1107/S1600576722005349">J. Appl. Cryst. 55, 1055–1062</a>
     </div>
   </section>
 
@@ -61,7 +61,7 @@ nav_order: 4
     <div class="card-links">
       <a href="https://adamsmp92.github.io/SWSANS_python/">Open web app</a>
       <a href="https://github.com/AdamsMP92/SWSANS_python">GitHub repository</a>
-      <a href="https://doi.org/10.1107/S205225252300180X">Publication</a>
+      <a href="https://doi.org/10.1107/S205225252300180X">IUCrJ 10, 261–269</a>
     </div>
   </section>
 
