@@ -17,6 +17,11 @@ nav_order: 4
       <a href="https://github.com/AdamsMP92/NuMagSANS">GitHub repository</a>
       <a href="https://doi.org/10.1107/S160057672600258X">J. Appl. Cryst. 59, 943–959</a>
     </div>
+    <div class="doi-badge">
+      <a href="https://doi.org/10.5281/zenodo.18824364" aria-label="NuMagSANS version 1.0.0 on Zenodo">
+        <img src="{{ '/assets/img/software/numagsans-doi.svg' | relative_url }}" alt="DOI 10.5281/zenodo.18824364">
+      </a>
+    </div>
   </section>
 
   <section class="software-card">
