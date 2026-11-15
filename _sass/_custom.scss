@@ -638,6 +638,11 @@ footer {
   .cv > .card:first-of-type table.table-cv td:first-child {
     width: 5.5rem;
   }
+
+  .cv > .card:first-of-type table.table-cv tr:last-child td:last-child {
+    font-size: 0.88rem;
+    letter-spacing: -0.01em;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
