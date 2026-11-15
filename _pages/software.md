@@ -31,6 +31,18 @@ nav_order: 4
   </section>
 
   <section class="software-card">
+    <div class="eyebrow">Detector analysis</div>
+    <h3>SANS2D Mode Analyzer</h3>
+    <p>A browser-native tool for model-independent orthogonal angular–radial mode decompositions of two-dimensional small-angle scattering patterns, with uncertainty-aware fitting, symmetry diagnostics, and detector-centering tools.</p>
+    <div><span class="pill">Python</span><span class="pill">2D SANS</span><span class="pill">Web app</span></div>
+    <div class="card-links">
+      <a href="https://adamsmp92.github.io/SANS2D_mode_analyzer_open/">Open web app</a>
+      <a href="https://github.com/AdamsMP92/SANS2D_mode_analyzer_open/tree/v0.1.0">Source · v0.1.0</a>
+      <a href="https://doi.org/10.5281/zenodo.24253614">Zenodo · v0.1.0</a>
+    </div>
+  </section>
+
+  <section class="software-card">
     <div class="eyebrow">Simulation</div>
     <h3>SWSANS</h3>
     <p>A Stoner–Wohlfarth and magnetic-SANS simulator based on Landau–Lifshitz dynamics with selectable magnetocrystalline anisotropies.</p>
