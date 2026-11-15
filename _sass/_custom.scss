@@ -294,6 +294,22 @@ button:focus-visible {
   color: var(--global-hover-text-color);
 }
 
+.doi-badge {
+  margin-top: 0.85rem;
+}
+
+.doi-badge a,
+.doi-badge img {
+  display: inline-block;
+}
+
+.doi-badge img {
+  height: 20px;
+  max-width: 100%;
+  vertical-align: middle;
+  width: auto;
+}
+
 .timeline {
   border-left: 1px solid var(--global-divider-color);
   margin: 1.5rem 0 2.5rem 0.4rem;

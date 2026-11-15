@@ -74,7 +74,13 @@ nav_order: 4
     <div><span class="pill">Python</span><span class="pill">Web app</span><span class="pill">Coils</span></div>
     <div class="card-links">
       <a href="https://adamsmp92.github.io/SolenoidCalculator/">Open web app</a>
-      <a href="https://github.com/AdamsMP92/SolenoidCalculator">GitHub repository</a>
+      <a href="https://github.com/AdamsMP92/SolenoidCalculator/tree/v0.1.0">Source · v0.1.0</a>
+      <a href="https://doi.org/10.5281/zenodo.24265601">Zenodo · v0.1.0</a>
+    </div>
+    <div class="doi-badge">
+      <a href="https://doi.org/10.5281/zenodo.24265601" aria-label="Solenoid Calculator version 0.1.0 on Zenodo">
+        <img src="{{ '/assets/img/software/solenoid-calculator-doi.svg' | relative_url }}" alt="DOI 10.5281/zenodo.24265601">
+      </a>
     </div>
   </section>
 
