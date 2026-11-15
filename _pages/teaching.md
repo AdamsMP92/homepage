@@ -4,7 +4,7 @@ permalink: /teaching/
 title: teaching
 description: University teaching, computational-science tutorials, and science outreach from 2016 to the present.
 nav: true
-nav_order: 4
+nav_order: 5
 ---
 
 <div class="timeline">

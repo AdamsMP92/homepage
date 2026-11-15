@@ -8,7 +8,8 @@ The production domain can later be moved to michaelphilippadams.com without chan
 
 ## Structure
 
-- _pages/: home, publications, software, teaching, awards, posters, and legal/privacy content
+- _pages/: home, CV, publications, software, teaching, awards, posters, and legal/privacy content
+- _data/cv.yml: structured content for the web-native CV page
 - _bibliography/papers.bib: publication data rendered by jekyll-scholar
 - _data/socials.yml: professional and scholarly profile links
 - _sass/_custom.scss: site-specific visual design

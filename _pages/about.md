@@ -65,4 +65,4 @@ My research asks what can be reliably inferred about complex magnetization struc
 
 Alongside my computational work, I have participated in neutron-scattering beamtimes at the [Institut Laue–Langevin](https://www.ill.eu/) and the [ISIS Neutron and Muon Source](https://www.isis.stfc.ac.uk/). My role has focused on theory, data reduction, MuMag2022-based analysis, micromagnetic modelling, and physical interpretation. Research stays at the University of Oxford and at Lund University/LINXS have supported these connections between modelling, software, and experiment.
 
-For the complete record, see [publications]({{ '/publications/' | relative_url }}), [software]({{ '/software/' | relative_url }}), and [posters]({{ '/posters/' | relative_url }}).
+For the complete record, see my [CV]({{ '/cv/' | relative_url }}), [publications]({{ '/publications/' | relative_url }}), [software]({{ '/software/' | relative_url }}), and [posters]({{ '/posters/' | relative_url }}).

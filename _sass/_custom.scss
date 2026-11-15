@@ -406,6 +406,157 @@ button:focus-visible {
   padding: 1rem 1.2rem;
 }
 
+.post-title a.float-right {
+  align-items: center;
+  background: color-mix(in srgb, var(--global-theme-color) 10%, var(--global-card-bg-color));
+  border: 1px solid color-mix(in srgb, var(--global-theme-color) 28%, transparent);
+  border-radius: 0.85rem;
+  color: var(--global-theme-color);
+  display: inline-flex;
+  float: right;
+  font-family: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 1.15rem;
+  height: 3rem;
+  justify-content: center;
+  margin-top: 0.15rem;
+  text-decoration: none;
+  width: 3rem;
+}
+
+.post-title a.float-right:hover {
+  background: var(--global-theme-color);
+  color: var(--global-hover-text-color);
+}
+
+.cv .card {
+  background: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 1.1rem;
+  box-shadow: 0 10px 35px rgba(23, 32, 51, 0.05);
+  margin-top: 1rem !important;
+  padding: clamp(1.1rem, 2.5vw, 1.55rem) !important;
+}
+
+.cv > .card:first-of-type {
+  background: linear-gradient(145deg, color-mix(in srgb, var(--global-theme-color) 11%, var(--global-card-bg-color)), var(--global-card-bg-color));
+  border-top: 0.24rem solid var(--global-theme-color);
+}
+
+.cv .card-title {
+  border-bottom: 1px solid var(--global-divider-color);
+  font-family: "Newsreader", Georgia, serif;
+  font-size: clamp(1.35rem, 3vw, 1.65rem);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin: 0 0 1rem;
+  padding-bottom: 0.6rem;
+}
+
+.cv table,
+.cv ul.list-group {
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.cv table.table-cv td,
+.cv table.table-cv th {
+  color: var(--global-text-color);
+  line-height: 1.5;
+  padding: 0.38rem 0.55rem !important;
+  vertical-align: top;
+}
+
+.cv > .card:first-of-type table.table-cv td:first-child {
+  color: var(--global-theme-color);
+  font-size: 0.76rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  width: 10rem;
+}
+
+.cv .list-group-item {
+  background: transparent;
+  padding: 1rem 0 !important;
+}
+
+.cv .card > div > ul.list-group + ul.list-group {
+  border-top: 1px solid var(--global-divider-color);
+}
+
+.cv .row {
+  display: grid;
+  gap: 1.1rem;
+  grid-template-columns: minmax(6.8rem, 8.7rem) minmax(0, 1fr);
+  margin: 0;
+}
+
+.cv .row > [class*="col-"] {
+  flex: none;
+  max-width: none;
+  padding: 0;
+  width: auto;
+}
+
+.cv .date-column,
+.cv .row > [class*="col-"]:first-child {
+  text-align: left !important;
+}
+
+.cv .badge {
+  background: color-mix(in srgb, var(--global-theme-color) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--global-theme-color) 22%, transparent);
+  border-radius: 999px;
+  color: var(--global-theme-color);
+  font-size: 0.72rem;
+  letter-spacing: 0.035em;
+  min-width: auto !important;
+  padding: 0.28rem 0.58rem;
+}
+
+.cv p.location {
+  color: var(--global-text-color-light);
+  font-size: 0.74rem;
+  line-height: 1.4;
+  margin: 0.55rem 0 0;
+  text-align: left;
+  white-space: normal;
+}
+
+.cv h6.title {
+  font-family: "Newsreader", Georgia, serif;
+  font-size: 1.12rem;
+  line-height: 1.3;
+  margin: 0;
+}
+
+.cv h6:not(.title) {
+  color: var(--global-text-color-light);
+  line-height: 1.5;
+  margin: 0.2rem 0;
+}
+
+.cv ul.items {
+  color: var(--global-text-color-light);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin: 0.55rem 0 0;
+  padding-left: 1.15rem;
+}
+
+.cv ul.items li + li {
+  margin-top: 0.3rem;
+}
+
+.cv .card-text {
+  color: var(--global-text-color-light);
+  font-size: 0.94rem;
+  line-height: 1.65;
+}
+
+.cv .card-text strong {
+  color: var(--global-text-color);
+}
+
 .publications h2,
 .publications h1 {
   color: var(--global-text-color);
@@ -460,6 +611,24 @@ footer {
 
   .award-card {
     grid-template-columns: 1fr;
+  }
+
+  .post-title a.float-right {
+    height: 2.6rem;
+    width: 2.6rem;
+  }
+
+  .cv .row {
+    gap: 0.3rem;
+    grid-template-columns: 1fr;
+  }
+
+  .cv p.location {
+    margin-bottom: 0.6rem;
+  }
+
+  .cv > .card:first-of-type table.table-cv td:first-child {
+    width: 7.5rem;
   }
 }
 

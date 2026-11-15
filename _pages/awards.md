@@ -4,7 +4,7 @@ permalink: /awards/
 title: awards
 description: Selected awards, fellowships, and scholarships.
 nav: true
-nav_order: 5
+nav_order: 6
 ---
 
 <div class="award-list">

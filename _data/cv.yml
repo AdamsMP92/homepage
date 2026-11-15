@@ -1,0 +1,176 @@
+# Public, web-native CV in the RenderCV format used by the al-folio CV page.
+# The longer publication record remains in _bibliography/papers.bib. Personal
+# phone numbers, referees, and early school history are intentionally omitted.
+cv:
+  name: Michael Philipp Adams
+  label: Computational Physicist (Postdoctoral Researcher) · Magnetic Neutron Scattering · Scientific Software
+  summary: >
+    Computational physicist specialising in magnetic neutron scattering,
+    micromagnetics, atomistic spin dynamics, and scientific software. My work
+    connects nonuniform magnetization textures to measurable scattering
+    signatures through analytical theory, numerical simulation, and
+    reproducible computation.
+  email: michael.adams@mpsd.mpg.de
+  location: Hamburg, Germany
+  social_networks:
+    - network: LinkedIn
+      username: michael-philipp-adams-421251236
+    - network: ORCID
+      username: 0000-0001-9269-8087
+    - network: Google Scholar
+      username: -BCbC84AAAAJ
+  sections:
+    Experience:
+      - company: Max Planck Institute for the Structure and Dynamics of Matter (MPSD)
+        position: Computational Physicist (Postdoctoral Researcher)
+        url: https://www.mpsd.mpg.de/
+        location: Hamburg, Germany
+        start_date: "2026-02"
+        end_date: present
+        highlights:
+          - Computational-science research within the EU-funded [MaMMoS project](https://mammos-project.github.io/), contributing to open and reproducible multiscale-modelling workflows.
+      - company: University of Luxembourg
+        position: Postdoctoral Researcher
+        url: https://www.uni.lu/
+        location: Luxembourg
+        start_date: "2025-10"
+        end_date: "2026-01"
+      - company: University of Oxford
+        position: Visiting PhD Student
+        url: https://www.physics.ox.ac.uk/
+        location: Oxford, UK
+        start_date: "2024-04"
+        end_date: "2024-07"
+        highlights:
+          - Research stay in Prof. Andrew Boothroyd's group; worked with Dr. Lucas Wilkins to integrate MuMag2022 into [SasView](https://www.sasview.org/docs/user/qtgui/Utilities/MuMag/mumag_help.html).
+      - company: Lund University and LINXS Institute of Advanced Neutron and X-ray Science
+        position: Visiting PhD Student
+        url: https://www.linxs.se/
+        location: Lund, Sweden
+        start_date: "2023-04"
+        end_date: "2023-06"
+        highlights:
+          - Research stay in the group of Prof. Elizabeth Blackburn, connecting magnetic-scattering theory, data analysis, and experiment.
+      - company: University of Luxembourg
+        position: Doctoral Researcher
+        url: https://www.uni.lu/fstm-en/research-departments/department-physics-materials-science/
+        location: Luxembourg
+        start_date: "2021-10"
+        end_date: "2025-09"
+        summary: "PhD thesis: *Magnetic neutron scattering of nanoparticles: analytical theory and experiment beyond the superspin model* (supervisor: Prof. Andreas Michels)."
+      - company: Trier University of Applied Sciences
+        position: Lecturer
+        url: https://www.hochschule-trier.de/
+        location: Trier, Germany
+        start_date: "2020-10"
+        end_date: "2021-03"
+
+    Education:
+      - institution: University of Luxembourg
+        location: Luxembourg
+        area: Physics and Materials Science
+        studyType: PhD
+        start_date: "2021"
+        end_date: "2025"
+        highlights:
+          - "Thesis: *Magnetic neutron scattering of nanoparticles: analytical theory and experiment beyond the superspin model*."
+          - Excellent Doctoral Thesis Award 2025.
+      - institution: Trier University of Applied Sciences
+        location: Trier, Germany
+        area: Electrical Engineering
+        studyType: Master of Science (with distinction, grade 1.0)
+        start_date: "2017"
+        end_date: "2020"
+        highlights:
+          - "Thesis: *Langevin dynamics simulation of magnetic nanoparticles with MATLAB* (supervisor: Prof. Hellmut Hupe)."
+      - institution: Trier University of Applied Sciences
+        location: Trier, Germany
+        area: Electrical Engineering
+        studyType: Bachelor of Engineering (grade 1.4)
+        start_date: "2013"
+        end_date: "2017"
+        highlights:
+          - "Thesis: *Convergence analysis of finite-difference methods applied to the scalar Maxwell wave equation in weakly guiding, cylindrical, dielectric media* (supervisor: Prof. Otfried Georg)."
+      - institution: Harald-Fissler-Schule Idar-Oberstein
+        location: Idar-Oberstein, Germany
+        area: Engineering
+        studyType: Fachabitur
+        start_date: "2012"
+        end_date: "2013"
+      - institution: Hochwald Foods GmbH and BBS Wittlich
+        location: Thalfang and Wittlich, Germany
+        area: Electronics technician for industrial engineering
+        studyType: Dual vocational training
+        start_date: "2008"
+        end_date: "2012"
+
+    Computational Methods and Technical Expertise:
+      - bullet: '**Small-angle neutron-scattering simulation and data analysis.** Main developer of [NuMagSANS](https://github.com/AdamsMP92/NuMagSANS), a GPU-accelerated simulator for generic nuclear and magnetic SANS observables of complex systems. Developer of the MATLAB-based [MuMag2022](https://doi.org/10.1107/S1600576722005349) fitting software for experimental SANS data from bulk magnets.'
+      - bullet: '**Micromagnetics and atomistic spin dynamics.** Continuum modelling with MuMax3, OOMMF, and Ubermag, including pore-induced spin disorder, vortex textures, the Dzyaloshinskii-Moriya interaction, and reduced models of vortex nucleation and reversal. Development of atomistic spin-dynamics software for spherical nanoparticles with surface and magnetocrystalline anisotropy.'
+      - bullet: '**Neutron-scattering experiments.** Participation in two beamtimes at the [Institut Laue-Langevin](https://www.ill.eu/) and one at the [ISIS Neutron and Muon Source](https://www.isis.stfc.ac.uk/), with a primarily theoretical role in data reduction, MuMag2022-based analysis, micromagnetic modelling, and physical interpretation.'
+
+    Research Funding:
+      - bullet: '**FNR AFR Individual PhD Grant No. 15639149**, with Prof. Andreas Michels, *Magnetic neutron scattering of nanoparticles: analytical theory and experiment beyond the superspin model* (2021). Funding covered one four-year PhD position and €6,000 for travel.'
+
+    Honors and Awards:
+      - title: Excellent Doctoral Thesis Award
+        awarder: University of Luxembourg
+        date: "2025"
+      - title: Award for Outstanding Academic Degrees
+        awarder: Verband der Elektrotechnik Elektronik Informationstechnik (VDE), Trier
+        date: "2018"
+        summary: Four years of VDE membership and a €300 award.
+      - title: Begabtenstipendium des Landes Rheinland-Pfalz
+        awarder: State scholarship for talented students at Trier University of Applied Sciences
+        date: "2018"
+        summary: Awarded in 2015, 2016, 2017, and 2018 (€2,200 each year).
+
+    Service:
+      - bullet: '**Peer reviewer, American Physical Society** — *Physical Review B* and *Physical Review Letters* (May 2026–present).'
+      - bullet: '**Postdoctoral representative** — Max Planck Institute for the Structure and Dynamics of Matter (May 2026–present).'
+      - bullet: '**Peer reviewer, American Journal of Physics** (October 2024–present).'
+
+    Teaching Experience:
+      - bullet: '**Advanced Python for Computational Science** — five-day tutorial, MPSD, with Prof. Hans Fangohr and Dr. Martin Lang (23–27 February 2026).'
+      - bullet: '**Introduction to Python for Computational Science** — five-day tutorial, MPSD, with Prof. Hans Fangohr and Dr. Martin Lang (9–13 February 2026).'
+      - bullet: '**Classical Mechanics** — lecture unit on Lagrangian mechanics and Hamilton’s principle, University of Luxembourg (summer term 2025).'
+      - bullet: '**Electrodynamics and Special Relativity** — weekly exercise class, University of Luxembourg (winter terms 2023/24 and 2022/23, 2 h/week).'
+      - bullet: '**ScienteensLab outreach** — hands-on physics workshops for high-school students, University of Luxembourg (2022, 50 h total).'
+      - bullet: '**Linear Control Theory (Regelungstechnik 1)** — exercise classes, Trier University of Applied Sciences (summer terms 2021, 2020, and 2018).'
+      - bullet: '**Computer-Aided Design of Solenoidal Coils Using MATLAB** — seven-hour tutorial, Trier University of Applied Sciences (9 February 2021).'
+      - bullet: '**Electric and Magnetic Fields** — teaching and exercise classes, Trier University of Applied Sciences (winter terms 2020/21, 2018/19, 2017/18, and 2016/17).'
+      - bullet: '**Introduction to Analytical Mechanics** — seven-hour tutorial, Trier University of Applied Sciences (December 2018).'
+      - bullet: '**Systems Theory (Systemtheorie)** — exercise classes, Trier University of Applied Sciences (winter terms 2018/19, 2017/18, and 2016/17).'
+      - bullet: '**Telecommunications Engineering** — seminar, Trier University of Applied Sciences (winter term 2018/19, 2 h/week).'
+      - bullet: '**Object-Oriented Programming in C++** — exercise class, Trier University of Applied Sciences (summer term 2017, 4 h/week).'
+
+    Summer Schools, Seminars, and Certificates:
+      - bullet: '**Advanced Teaching Skills in Higher Education**, University of Luxembourg (October–December 2022, 21 h).'
+      - bullet: '**24th JCNS Laboratory Course — Neutron Scattering 2022**, Forschungszentrum Jülich and Heinz Maier-Leibnitz Zentrum, Garching (5–16 September 2022).'
+      - bullet: '**Getting Started in Teaching**, University of Luxembourg (7–8 June 2022, 7 h).'
+      - bullet: '**Tutor training**, Trier University of Applied Sciences (7 September 2017, 6 h).'
+      - bullet: '**Control-engineering seminar**, Überbetriebliches Ausbildungszentrum Wittlich (10–28 October 2011).'
+
+    Invited Talks:
+      - bullet: '**Magnetic Small-Angle Neutron Scattering from Nanoparticles: Effects Beyond the Superspin Model** — Forschungszentrum Jülich, Jülich, Germany (25 January 2024; invited seminar lecture, 45+15 min).'
+      - bullet: '**Atomistic simulations of magnetic neutron scattering from nanoparticles: towards the understanding of complex spin structures beyond the superspin model** — University of Copenhagen, Copenhagen, Denmark (26 May 2023; invited seminar, 45+15 min).'
+      - bullet: '**Atomistic simulations of magnetic neutron scattering from nanoparticles: towards the understanding of complex spin structures beyond the superspin model** — Lund University, Lund, Sweden (13 April 2023; invited seminar, 45+15 min).'
+
+    Contributed Talks, Seminars, Presentations, and Posters:
+      - bullet: '**Magnetic Small-Angle Neutron Scattering from Nanoparticles: Effects Beyond the Superspin Model** — SAS2024, Taipei, Taiwan (5 November 2024; conference talk, 12+3 min).'
+      - bullet: '**Magnetic Small-Angle Neutron Scattering from Nanoparticles: Effects Beyond the Superspin Model** — Physikzentrum Bad Honnef, Germany (19 June 2024; conference talk, 10+5 min).'
+      - bullet: '**Atomistic simulations of magnetic neutron scattering from nanoparticles: towards the understanding of complex spin structures beyond the superspin model** — Laboratoire PROMES, Perpignan, France (8 September 2023; oral presentation, 30+15 min).'
+      - bullet: '**Atomistic simulations of magnetic neutron scattering from nanoparticles: towards the understanding of complex spin structures beyond the superspin model** — LINXS, Lund, Sweden (15 June 2023; seminar presentation, 45+15 min).'
+      - bullet: '**Atomistic simulations of magnetic neutron scattering from nanoparticles: towards the understanding of complex spin structures beyond the superspin model** — HMM2023, Vienna, Austria (6 June 2023; oral presentation, 15+5 min).'
+      - bullet: '**Atomistic simulations of magnetic neutron scattering from nanoparticles: towards the understanding of complex spin structures beyond the superspin model** — LINXS Science Day, Lund, Sweden (4 May 2023; seminar presentation and poster).'
+      - bullet: '**Atomistic Simulations of the Magnetic Neutron Scattering** — European Conference on Neutron Scattering 2023, Munich, Germany (20–23 March 2023; poster).'
+      - bullet: '**Atomistic Simulations of the Magnetic Neutron Scattering from Nanoparticles** — ISIS SANS User Meeting, Abingdon, UK (31 January 2023; oral presentation, 15+5 min).'
+      - bullet: '**Magnetic Small-Angle Neutron Scattering** — VDE Tag 2022, Trier University of Applied Sciences (15 December 2022; oral presentation, 45 min).'
+      - bullet: '**Atomistic Simulation of the Magnetic Small-Angle Neutron Scattering Cross Section — Nanoparticles with Surface Anisotropy** — ICFPM2022, Yokohama, Japan (16–21 October 2022; virtual oral presentation, 15+5 min).'
+      - bullet: '**Magnetic Small-Angle Neutron Scattering from Spherical Nanoparticles: Effect of Surface Anisotropy** — SAS2022, Campinas, Brazil (11–16 September 2022; virtual oral presentation, 15+5 min).'
+      - bullet: '**Magnetic Small-Angle Neutron Scattering from Spherical Nanoparticles: Effect of Surface Anisotropy** — ICNS2022, Buenos Aires, Argentina (21–25 August 2022; virtual poster).'
+      - bullet: '**Atomistic Simulation of Magnetic Neutron Scattering from Nanoparticles: Effect of Surface Anisotropy** — Laboratoire PROMES, Perpignan, France (4 July 2022; colloquium, 45 min).'
+      - bullet: '**Atomistic Simulation of Magnetic Neutron Scattering from Nanoparticles: Effect of Surface Anisotropy** — LINXS Workshop on Magnetic SANS: Data Analysis and Software Prospects, Lund, Sweden (2022).'
+      - bullet: '**Applications of Variance-Based Sensitivity Analysis** — VDE Tag 2019, Trier University of Applied Sciences (oral presentation, 45 min).'
+      - bullet: '**Empirical Verification of COMSOL Simulation of the Resonance Frequency of an Archimedean Spiral Coil** — COMSOL Conference 2018, Lausanne, Switzerland (22–24 October 2018; poster and paper).'
+      - bullet: '**Jahreshauptversammlung 2018, VDE Trier e.V.** — Trier, Germany (18 January 2018; oral presentation, 15+5 min).'

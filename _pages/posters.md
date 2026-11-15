@@ -4,7 +4,7 @@ permalink: /posters/
 title: posters
 description: A visual archive of selected conference and summer-school posters.
 nav: true
-nav_order: 6
+nav_order: 7
 ---
 
 Select a poster to inspect it at full size.
