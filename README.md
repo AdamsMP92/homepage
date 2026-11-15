@@ -43,7 +43,7 @@ The canonical bibliography remains in [AdamsMP92/publication_bibliography](https
 ruby scripts/sync_publications.rb
 ~~~
 
-The script keeps the website-only fields for selected publications, BibTeX buttons, and the NuMagSANS code link.
+The script keeps the website-only fields for selected publications, BibTeX buttons, verified arXiv IDs, and the NuMagSANS code link.
 
 ## Move the custom domain
 
