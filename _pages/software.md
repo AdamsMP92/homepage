@@ -44,9 +44,12 @@ nav_order: 4
   <section class="software-card">
     <div class="eyebrow">Engineering tool</div>
     <h3>Solenoid Calculator</h3>
-    <p>Estimates wire length, DC inductance, resistance, impedance, and axial magnetic flux density using an energy-based Fourier-space inductance model.</p>
-    <div><span class="pill">MATLAB</span><span class="pill">Coils</span></div>
-    <div class="card-links"><a href="https://drive.google.com/drive/folders/17_brej9_YddluPiCXiAOiqfmcSqLb3jg?usp=sharing">App & documentation</a></div>
+    <p>A browser-native Python app for calculating wire length, DC inductance, resistance, impedance, axial magnetic flux density, and discrete winding geometry using an energy-based Fourier-space model.</p>
+    <div><span class="pill">Python</span><span class="pill">Web app</span><span class="pill">Coils</span></div>
+    <div class="card-links">
+      <a href="https://adamsmp92.github.io/SolenoidCalculator/">Open web app</a>
+      <a href="https://github.com/AdamsMP92/SolenoidCalculator">GitHub repository</a>
+    </div>
   </section>
 
   <section class="software-card">
