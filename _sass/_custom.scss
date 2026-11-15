@@ -474,6 +474,14 @@ button:focus-visible {
   width: 10rem;
 }
 
+.cv > .card:first-of-type table.table-cv {
+  table-layout: fixed;
+}
+
+.cv > .card:first-of-type table.table-cv td:last-child {
+  overflow-wrap: anywhere;
+}
+
 .cv .list-group-item {
   background: transparent;
   padding: 1rem 0 !important;
@@ -628,7 +636,7 @@ footer {
   }
 
   .cv > .card:first-of-type table.table-cv td:first-child {
-    width: 7.5rem;
+    width: 6.5rem;
   }
 }
 
