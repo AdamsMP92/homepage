@@ -22,10 +22,11 @@ nav_order: 4
   <section class="software-card">
     <div class="eyebrow">Data analysis</div>
     <h3>MuMag2022</h3>
-    <p>A MATLAB toolbox for fitting magnetic-field-dependent unpolarized SANS data to a micromagnetic model.</p>
-    <div><span class="pill">MATLAB</span><span class="pill">SANS fitting</span></div>
+    <p>A browser-native Python app for fitting magnetic-field-dependent unpolarized SANS data in the approach-to-saturation regime, with exchange-stiffness profiling, uncertainty-aware residual analysis, and stability diagnostics.</p>
+    <div><span class="pill">Python</span><span class="pill">SANS fitting</span><span class="pill">Web app</span></div>
     <div class="card-links">
-      <a href="https://drive.google.com/drive/folders/1-fPSpZCG8QprG2bWxSwtFXUnO2SN2esa?usp=sharing">App & documentation</a>
+      <a href="https://adamsmp92.github.io/MuMag2022_python/">Open web app</a>
+      <a href="https://github.com/AdamsMP92/MuMag2022_python">GitHub repository</a>
       <a href="https://doi.org/10.1107/S1600576722005349">Publication</a>
     </div>
   </section>
@@ -45,11 +46,12 @@ nav_order: 4
   <section class="software-card">
     <div class="eyebrow">Simulation</div>
     <h3>SWSANS</h3>
-    <p>A Stoner–Wohlfarth and magnetic-SANS simulator based on Landau–Lifshitz dynamics with selectable magnetocrystalline anisotropies.</p>
-    <div><span class="pill">Spin dynamics</span><span class="pill">SANS</span></div>
+    <p>A browser-native Python simulator for randomly oriented Stoner–Wohlfarth ensembles, Landau–Lifshitz relaxation, hysteresis, correlation tensors, and magnetic SANS observables in both scattering geometries.</p>
+    <div><span class="pill">Python</span><span class="pill">Spin dynamics</span><span class="pill">Web app</span></div>
     <div class="card-links">
-      <a href="https://drive.google.com/drive/folders/11eKWZOdjZspBg9BUsOfl_RCAIcoKo3ny?usp=share_link">App & documentation</a>
-      <a href="https://doi.org/10.1107/S205225252300180X">Related publication</a>
+      <a href="https://adamsmp92.github.io/SWSANS_python/">Open web app</a>
+      <a href="https://github.com/AdamsMP92/SWSANS_python">GitHub repository</a>
+      <a href="https://doi.org/10.1107/S205225252300180X">Publication</a>
     </div>
   </section>
 
