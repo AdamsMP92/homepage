@@ -1,0 +1,13 @@
+# Displayed in this order on the home page.
+github_username: AdamsMP92
+linkedin_username: michael-philipp-adams-421251236
+orcid_id: 0000-0001-9269-8087
+research_gate_profile: Michael-Adams-9
+scholar_userid: -BCbC84AAAAJ
+arxiv_search:
+  logo: ai ai-arxiv
+  title: arXiv
+  url: https://arxiv.org/search/cond-mat?query=Adams%2C+M+P&searchtype=author
+work_url:
+  value: https://www.mpsd.mpg.de/person/164742/2736
+  logo: fa-solid fa-building-columns
