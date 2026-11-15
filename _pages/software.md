@@ -59,8 +59,9 @@ nav_order: 4
     <div class="eyebrow">Reduced micromagnetics</div>
     <h3>Minimal Hyperbolic Micromagnetics</h3>
     <p>A reduced Python model for vortex nucleation and reversal in spherical magnetic nanoparticles, with optimized hyperbolic-vortex profiles, quasistatic hysteresis, and Stoner–Wohlfarth reference calculations.</p>
-    <div><span class="pill">Python</span><span class="pill">Micromagnetics</span><span class="pill">Hysteresis</span></div>
+    <div><span class="pill">Python</span><span class="pill">Micromagnetics</span><span class="pill">Hysteresis</span><span class="pill">Web app</span></div>
     <div class="card-links">
+      <a href="https://adamsmp92.github.io/MinimalHyperbolicMicromagnetics/">Open web app</a>
       <a href="https://github.com/AdamsMP92/MinimalHyperbolicMicromagnetics">GitHub repository</a>
       <a href="https://doi.org/10.1103/8rkf-j2kn">Related publication</a>
     </div>
