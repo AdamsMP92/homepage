@@ -41,6 +41,11 @@ nav_order: 4
       <a href="https://github.com/AdamsMP92/SANS2D_mode_analyzer_open/tree/v0.1.0">Source · v0.1.0</a>
       <a href="https://doi.org/10.5281/zenodo.24253614">Zenodo · v0.1.0</a>
     </div>
+    <div class="doi-badge">
+      <a href="https://doi.org/10.5281/zenodo.24253614" aria-label="SANS2D Mode Analyzer version 0.1.0 on Zenodo">
+        <img src="{{ '/assets/img/software/sans2d-mode-analyzer-doi.svg' | relative_url }}" alt="DOI 10.5281/zenodo.24253614">
+      </a>
+    </div>
   </section>
 
   <section class="software-card">
