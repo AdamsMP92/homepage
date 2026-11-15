@@ -54,6 +54,17 @@ nav_order: 4
   </section>
 
   <section class="software-card">
+    <div class="eyebrow">Reduced micromagnetics</div>
+    <h3>Minimal Hyperbolic Micromagnetics</h3>
+    <p>A reduced Python model for vortex nucleation and reversal in spherical magnetic nanoparticles, with optimized hyperbolic-vortex profiles, quasistatic hysteresis, and Stoner–Wohlfarth reference calculations.</p>
+    <div><span class="pill">Python</span><span class="pill">Micromagnetics</span><span class="pill">Hysteresis</span></div>
+    <div class="card-links">
+      <a href="https://github.com/AdamsMP92/MinimalHyperbolicMicromagnetics">GitHub repository</a>
+      <a href="https://doi.org/10.1103/8rkf-j2kn">Related publication</a>
+    </div>
+  </section>
+
+  <section class="software-card">
     <div class="eyebrow">Engineering tool</div>
     <h3>Solenoid Calculator</h3>
     <p>A browser-native Python app for calculating wire length, DC inductance, resistance, impedance, axial magnetic flux density, and discrete winding geometry using an energy-based Fourier-space model.</p>
