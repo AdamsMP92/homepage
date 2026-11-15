@@ -1,6 +1,6 @@
 # Michael P. Adams — academic homepage
 
-Source code for the Jekyll/al-folio website that will replace the current WordPress site. It is configured as a GitHub Pages project site at:
+Source code for the live Jekyll/al-folio website that is replacing the current WordPress site. It is published as a GitHub Pages project site at:
 
 https://adamsmp92.github.io/homepage/
 
@@ -17,15 +17,12 @@ The production domain can later be moved to michaelphilippadams.com without chan
 
 The theme runtime is pinned through Gemfile.lock; local content and styling stay separate from al-folio internals.
 
-## First deployment
+## Deployment
 
-1. In the GitHub repository, open **Settings → Pages**.
-2. Set **Build and deployment → Source** to **GitHub Actions**.
-3. Push the source to main.
-4. Follow the **Deploy GitHub Pages** workflow in the Actions tab.
+GitHub Pages is configured to use GitHub Actions. Every accepted push to `main` triggers the **Deploy GitHub Pages** workflow in the Actions tab.
 
 The workflow builds the custom Jekyll plugins and uploads the generated site with GitHub's official Pages actions.
-See GitHub's [custom workflow documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages) for the corresponding repository setting.
+See GitHub's [custom workflow documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages) for the repository setting.
 
 ## Local preview
 

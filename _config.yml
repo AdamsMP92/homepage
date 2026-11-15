@@ -7,7 +7,7 @@ first_name: Michael P.
 middle_name:
 last_name: Adams
 contact_note: >
-  Professional profiles and institutional contact details are linked above.
+  Professional profiles and current institutional contact details are available through the links on this page.
 description: >
   Michael P. Adams is a computational scientist working on magnetic neutron scattering,
   micromagnetics, magnetic nanoparticles, inverse problems, and scientific software.
@@ -17,8 +17,8 @@ footer_text: >
   <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: magnetic neutron scattering, SANS, micromagnetics, nanomagnetism, magnetic nanoparticles, scientific software, inverse problems
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🧲 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
-apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.
+icon: favicon.svg # image in /assets/img/ used consistently across every page and browser tab
+apple_touch_icon: # optional 180x180 PNG in /assets/img/ for iOS home-screen bookmarks
 
 url: https://adamsmp92.github.io # the base hostname & protocol for your site
 baseurl: /homepage # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -113,7 +113,7 @@ max_width: 1080px
 # see https://schema.org/docs/faq.html for more information
 serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: true # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+og_image: /assets/img/profile.png # site-wide default image for social link previews
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
