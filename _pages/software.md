@@ -126,4 +126,4 @@ nav_order: 4
   </section>
 </div>
 
-<div class="notice">Unless stated otherwise in the individual repository or download, these projects are distributed under the GNU General Public License v3.0. I also contribute to the open, reproducible multiscale-modelling framework <a href="https://mammos-project.github.io/">MaMMoS</a>.</div>
+<div class="notice">Licensing is specified in each repository. The open-source software projects listed here currently use the MIT License unless stated otherwise. I also contribute to the open, reproducible multiscale-modelling framework <a href="https://mammos-project.github.io/">MaMMoS</a>.</div>
