@@ -73,7 +73,7 @@ nav_order: 4
     <div class="card-links">
       <a href="https://adamsmp92.github.io/MinimalHyperbolicMicromagnetics/">Open web app</a>
       <a href="https://github.com/AdamsMP92/MinimalHyperbolicMicromagnetics">GitHub repository</a>
-      <a href="https://doi.org/10.1103/8rkf-j2kn">Related publication</a>
+      <a href="https://doi.org/10.1103/8rkf-j2kn">Phys. Rev. B 113, 224406</a>
     </div>
   </section>
 
