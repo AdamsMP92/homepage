@@ -72,6 +72,17 @@ nav_order: 4
   </section>
 
   <section class="software-card">
+    <div class="eyebrow">Analytical reference</div>
+    <h3>LangevinSANS</h3>
+    <p>A browser-native analytical model for the reversible equilibrium magnetization and magnetic SANS of dilute, noninteracting spherical macrospins, including the exact orientational moments and unpolarized and spin-flip observables in both scattering geometries.</p>
+    <div><span class="pill">Python</span><span class="pill">Langevin model</span><span class="pill">Web app</span></div>
+    <div class="card-links">
+      <a href="https://adamsmp92.github.io/LangevinSANS/">Open web app</a>
+      <a href="https://github.com/AdamsMP92/LangevinSANS/releases/tag/v0.1.0">Release · v0.1.0</a>
+    </div>
+  </section>
+
+  <section class="software-card">
     <div class="eyebrow">Reduced micromagnetics</div>
     <h3>Minimal Hyperbolic Micromagnetics</h3>
     <p>A reduced Python model for vortex nucleation and reversal in spherical magnetic nanoparticles, with optimized hyperbolic-vortex profiles, quasistatic hysteresis, and Stoner–Wohlfarth reference calculations.</p>
