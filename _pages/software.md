@@ -79,6 +79,12 @@ nav_order: 4
     <div class="card-links">
       <a href="https://adamsmp92.github.io/LangevinSANS/">Open web app</a>
       <a href="https://github.com/AdamsMP92/LangevinSANS/releases/tag/v0.1.0">Release · v0.1.0</a>
+      <a href="https://doi.org/10.5281/zenodo.24285087">Zenodo · v0.1.0</a>
+    </div>
+    <div class="doi-badge">
+      <a href="https://doi.org/10.5281/zenodo.24285087" aria-label="LangevinSANS version 0.1.0 on Zenodo">
+        <img src="{{ '/assets/img/software/langevinsans-doi.svg' | relative_url }}" alt="DOI 10.5281/zenodo.24285087">
+      </a>
     </div>
   </section>
 
