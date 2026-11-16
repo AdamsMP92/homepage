@@ -10,7 +10,7 @@ The production domain can later be moved to michaelphilippadams.com without chan
 
 - _pages/: home, CV, publications, software, teaching, awards, posters, and legal/privacy content
 - _data/cv.yml: structured content for the web-native CV page
-- _bibliography/papers.bib: publication data rendered by jekyll-scholar
+- _bibliography/papers.bib: canonical publication record rendered by jekyll-scholar
 - _data/socials.yml: professional and scholarly profile links
 - _sass/_custom.scss: site-specific visual design
 - assets/img/: profile and poster images migrated from WordPress
@@ -38,13 +38,9 @@ Then open http://127.0.0.1:4000/homepage/.
 
 ## Update publications
 
-The canonical bibliography remains in [AdamsMP92/publication_bibliography](https://github.com/AdamsMP92/publication_bibliography). Regenerate the website copy with:
+Edit `_bibliography/papers.bib` directly. It is the single source of truth for the publication list and includes both the scholarly metadata and website-only fields such as selected publications, verified arXiv IDs, and software links.
 
-~~~bash
-ruby scripts/sync_publications.rb
-~~~
-
-The script keeps the website-only fields for selected publications, BibTeX buttons, verified arXiv IDs, and the NuMagSANS code link.
+Do not maintain or generate a second bibliography copy in another repository. Every publication update should be committed together with the homepage so that the deployed list and its source remain identical.
 
 ## Move the custom domain
 

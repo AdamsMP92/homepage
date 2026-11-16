@@ -7,7 +7,7 @@ nav: true
 nav_order: 3
 ---
 
-The list is generated from BibTeX and maintained alongside the independent [publication bibliography](https://github.com/AdamsMP92/publication_bibliography). Use the search field to filter by title, author, venue, or year.
+The list is generated from the canonical [BibTeX bibliography](https://github.com/AdamsMP92/homepage/blob/main/_bibliography/papers.bib) maintained in this website repository. Use the search field to filter by title, author, venue, or year.
 
 {% include bib_search.liquid %}
 
