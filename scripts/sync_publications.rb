@@ -38,6 +38,105 @@ ARXIV_IDS = {
   "Bersweiler2022Softness" => "2109.04107"
 }.freeze
 
+# The independent bibliography repository is intentionally kept as the upstream
+# source. These website-side corrections reconcile it with the author's
+# WordPress publication list and official DOI metadata. Keeping the corrections
+# here prevents a later sync from silently restoring obsolete preprint or
+# incomplete DOI records.
+ENTRY_UPDATES = {
+  "Adams2026ClimatePhaseSpace" => {
+    fields: {
+      "additional_info" => "Available on [Research Square](https://www.researchsquare.com/article/rs-11351600/v1)"
+    }
+  },
+  "Adams2026ReducedVortex" => {
+    type: "article",
+    remove: %w[note],
+    fields: {
+      "journal" => "Physical Review Research",
+      "volume" => "8",
+      "number" => "4",
+      "pages" => "043133",
+      "doi" => "10.1103/mhfg-6sjm",
+      "url" => "https://doi.org/10.1103/mhfg-6sjm"
+    }
+  },
+  "Fangohr2026MaMMoS" => {
+    remove: %w[note],
+    fields: {
+      "volume" => "62",
+      "number" => "10",
+      "pages" => "7001606",
+      "doi" => "10.1109/TMAG.2026.3689962",
+      "url" => "https://doi.org/10.1109/TMAG.2026.3689962"
+    }
+  },
+  "Jefremovas2025OxidizedMagnetite" => {
+    fields: {
+      "number" => "45",
+      "doi" => "10.1039/D5NR02700D",
+      "url" => "https://doi.org/10.1039/D5NR02700D"
+    }
+  },
+  "Adams2025PhD" => {
+    fields: {
+      "pdf" => "https://drive.google.com/drive/folders/1nY8UV-8x1_rOnZHz8e9-xwjPDMMD1mE6?usp=sharing",
+      "website" => "https://hdl.handle.net/10993/65624"
+    }
+  },
+  "Adams2024TractorMagnets" => {
+    fields: {
+      "number" => "8",
+      "doi" => "10.1119/5.0198262",
+      "url" => "https://doi.org/10.1119/5.0198262"
+    }
+  },
+  "Adams2024NeutronNews" => {
+    fields: {
+      "volume" => "35",
+      "number" => "2",
+      "pages" => "2--5",
+      "doi" => "10.1080/10448632.2024.2355849",
+      "url" => "https://doi.org/10.1080/10448632.2024.2355849"
+    }
+  },
+  "Adams2023GreensFunction" => {
+    fields: {
+      "number" => "10",
+      "doi" => "10.1088/1402-4896/acf5b0",
+      "url" => "https://doi.org/10.1088/1402-4896/acf5b0"
+    }
+  },
+  "Bersweiler2022Resolving" => {
+    fields: {
+      "volume" => "33",
+      "number" => "2",
+      "pages" => "15--17",
+      "doi" => "10.1080/10448632.2022.2050641",
+      "url" => "https://doi.org/10.1080/10448632.2022.2050641"
+    }
+  },
+  "Bersweiler2022Softness" => {
+    fields: {
+      "number" => "1",
+      "doi" => "10.1107/S2052252521010605",
+      "url" => "https://doi.org/10.1107/S2052252521010605"
+    }
+  },
+  "Braband2020TorqueSensitivity" => {
+    fields: {
+      "number" => "2",
+      "doi" => "10.1016/j.ifacol.2020.12.939",
+      "url" => "https://doi.org/10.1016/j.ifacol.2020.12.939"
+    }
+  },
+  "Adams2018COMSOL" => {
+    fields: {
+      "website" => "https://www.comsol.com/paper/empirical-verification-of-comsol-simulation-of-resonance-frequency-of-an-archimedean-spiral-coil-63381"
+    }
+  }
+}.freeze
+
 def fetch(uri, redirects_left = 5)
   raise "Too many redirects while fetching #{SOURCE}" if redirects_left.zero?
 
@@ -52,6 +151,32 @@ def fetch(uri, redirects_left = 5)
   end
 end
 
+def update_entry!(bib, key, update)
+  pattern = /^@\w+\{#{Regexp.escape(key)},\n.*?^\}\n?/m
+  entry = bib[pattern]
+  raise "Publication key not found for metadata update: #{key}" unless entry
+
+  entry.sub!(/\A@\w+\{/, "@#{update[:type]}{") if update[:type]
+
+  Array(update[:remove]).each do |field|
+    entry.gsub!(/^  #{Regexp.escape(field)} = \{[^\n]*\},?\n/, "")
+  end
+
+  update.fetch(:fields, {}).each do |field, value|
+    field_pattern = /^  #{Regexp.escape(field)} = \{[^\n]*\},?\n/
+    if entry.match?(field_pattern)
+      entry.sub!(field_pattern, "  #{field} = {#{value}},\n")
+    else
+      entry = entry.rstrip
+      entry.sub!(/([^,\n])\n\}\z/, "\\1,\n}")
+      entry.sub!(/\n\}\z/, "\n  #{field} = {#{value}}\n}")
+    end
+  end
+
+  entry.sub!(/,\n\}\z/, "\n}")
+  bib.sub!(pattern, "#{entry.rstrip}\n")
+end
+
 def decorate(raw_bib)
   bib = raw_bib.sub(
     "% Michael P. Adams -- full publication record",
@@ -60,7 +185,16 @@ def decorate(raw_bib)
       "% Website-only fields (selected, bibtex_show, code, arxiv) are added by scripts/sync_publications.rb."
   )
 
+  bib.sub!(
+    "% 32 outputs. Check REVIEW_NOTES before publishing; missing DOIs have not been invented.",
+    "% 32 outputs.\n% Website metadata reconciled with the WordPress publication list and DOI registries on 16 November 2026."
+  )
+
   bib.gsub!(/^(@\w+\{[^,\n]+,\n)/, "\\1  bibtex_show = {true},\n")
+
+  ENTRY_UPDATES.each do |key, update|
+    update_entry!(bib, key, update)
+  end
 
   SELECTED_KEYS.each do |key|
     pattern = /(@\w+\{#{Regexp.escape(key)},\n(?:  bibtex_show = \{true\},\n))/
