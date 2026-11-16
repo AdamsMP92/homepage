@@ -60,8 +60,14 @@ nav_order: 4
     <div><span class="pill">Python</span><span class="pill">Spin dynamics</span><span class="pill">Web app</span></div>
     <div class="card-links">
       <a href="https://adamsmp92.github.io/SWSANS_python/">Open web app</a>
-      <a href="https://github.com/AdamsMP92/SWSANS_python">GitHub repository</a>
+      <a href="https://github.com/AdamsMP92/SWSANS_python/tree/v0.1.0">Source · v0.1.0</a>
+      <a href="https://doi.org/10.5281/zenodo.24280735">Zenodo · v0.1.0</a>
       <a href="https://doi.org/10.1107/S205225252300180X">IUCrJ 10, 261–269</a>
+    </div>
+    <div class="doi-badge">
+      <a href="https://doi.org/10.5281/zenodo.24280735" aria-label="SWSANS version 0.1.0 on Zenodo">
+        <img src="{{ '/assets/img/software/swsans-doi.svg' | relative_url }}" alt="DOI 10.5281/zenodo.24280735">
+      </a>
     </div>
   </section>
 
