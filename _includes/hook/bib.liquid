@@ -1,0 +1,9 @@
+{% if entry.type == 'article' %}
+  {% if entry.volume %}
+    {% capture entrytype %}{{ entrytype }} <strong>{{ entry.volume }}</strong>{% endcapture %}
+  {% endif %}
+  {% if entry.pages %}
+    {% assign formatted_pages = entry.pages | replace: '--', '–' %}
+    {% capture entrytype %}{{ entrytype }}, {{ formatted_pages }}{% endcapture %}
+  {% endif %}
+{% endif %}

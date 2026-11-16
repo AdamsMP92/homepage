@@ -11,6 +11,7 @@ The production domain can later be moved to michaelphilippadams.com without chan
 - _pages/: home, CV, publications, software, teaching, awards, posters, and legal/privacy content
 - _data/cv.yml: structured content for the web-native CV page
 - _bibliography/papers.bib: canonical publication record rendered by jekyll-scholar
+- _includes/hook/bib.liquid: journal, volume, and page formatting for publication entries
 - _data/socials.yml: professional and scholarly profile links
 - _sass/_custom.scss: site-specific visual design
 - assets/img/: profile and poster images migrated from WordPress
