@@ -32,7 +32,13 @@ nav_order: 4
     <div class="card-links">
       <a href="https://adamsmp92.github.io/MuMag2022_python/">Open web app</a>
       <a href="https://github.com/AdamsMP92/MuMag2022_python">GitHub repository</a>
+      <a href="https://doi.org/10.5281/zenodo.24294079">Zenodo · v0.1.0</a>
       <a href="https://doi.org/10.1107/S1600576722005349">J. Appl. Cryst. 55, 1055–1062</a>
+    </div>
+    <div class="doi-badge">
+      <a href="https://doi.org/10.5281/zenodo.24294079" aria-label="MuMag2022 Python version 0.1.0 on Zenodo">
+        <img src="{{ '/assets/img/software/mumag2022-doi.svg' | relative_url }}" alt="DOI 10.5281/zenodo.24294079">
+      </a>
     </div>
   </section>
 
