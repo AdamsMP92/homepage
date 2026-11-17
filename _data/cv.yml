@@ -53,11 +53,11 @@ cv:
           - Research stay in the group of Prof. Elizabeth Blackburn, connecting magnetic-scattering theory, data analysis, and experiment.
       - company: University of Luxembourg
         position: Doctoral Researcher
-        url: https://www.uni.lu/fstm-en/research-departments/department-physics-materials-science/
+        url: https://www.uni.lu/fstm-en/research-departments/department-of-physics-materials-science/
         location: Luxembourg
         start_date: "2021-10"
         end_date: "2025-09"
-        summary: "PhD thesis: *Magnetic neutron scattering of nanoparticles: analytical theory and experiment beyond the superspin model* (supervisor: Prof. Andreas Michels)."
+        summary: "PhD thesis: *Magnetic Small-Angle Neutron Scattering From Nanoparticles: Theory and Simulation of Surface Anisotropy and Magnetodipolar Interaction Effects Beyond the Superspin Model* (supervisor: Prof. Andreas Michels)."
       - company: Trier University of Applied Sciences
         position: Lecturer
         url: https://www.hochschule-trier.de/
@@ -73,7 +73,7 @@ cv:
         start_date: "2021"
         end_date: "2025"
         highlights:
-          - "Thesis: *Magnetic neutron scattering of nanoparticles: analytical theory and experiment beyond the superspin model*."
+          - "Thesis: *Magnetic Small-Angle Neutron Scattering From Nanoparticles: Theory and Simulation of Surface Anisotropy and Magnetodipolar Interaction Effects Beyond the Superspin Model*."
           - Excellent Doctoral Thesis Award 2025.
       - institution: Trier University of Applied Sciences
         location: Trier, Germany
