@@ -4,6 +4,10 @@ linkedin_username: michael-philipp-adams-421251236
 orcid_id: 0000-0001-9269-8087
 research_gate_profile: Michael-Adams-9
 scholar_userid: -BCbC84AAAAJ
+openalex_profile:
+  logo: https://openalex.org/brand-assets/openalex-mark-square.png
+  title: OpenAlex
+  url: https://openalex.org/authors/A5034889491
 arxiv_search:
   logo: ai ai-arxiv
   title: arXiv
