@@ -130,6 +130,18 @@ nav_order: 4
     <div><span class="pill">Magnetostatics</span><span class="pill">Benchmarking</span></div>
     <div class="card-links"><a href="https://drive.google.com/drive/folders/11YY3QsdrOn5YPNyyMXkgH3y9wzUp3Gtk?usp=share_link">App & documentation</a></div>
   </section>
+
+  <section class="software-card">
+    <div class="eyebrow">Magnetic design</div>
+    <h3>Tractor Magnet</h3>
+    <p>A browser-native Python app for designing and validating two-dimensional tractor-magnet configurations, combining point-dipole scouting with exact-cylinder multipole calculations, stability tests, force barriers, and collision-aware geometry checks.</p>
+    <div><span class="pill">Python</span><span class="pill">Magnetostatics</span><span class="pill">Multipole model</span><span class="pill">Web app</span></div>
+    <div class="card-links">
+      <a href="https://adamsmp92.github.io/TractorMagnet/">Open web app</a>
+      <a href="https://github.com/AdamsMP92/TractorMagnet">GitHub repository</a>
+      <a href="https://doi.org/10.1119/5.0198262">Am. J. Phys. 92, 576–582</a>
+    </div>
+  </section>
 </div>
 
 <div class="notice">Licensing is specified in each repository. The open-source software projects listed here currently use the MIT License unless stated otherwise. I also contribute to the open, reproducible multiscale-modelling framework <a href="https://mammos-project.github.io/">MaMMoS</a>.</div>
