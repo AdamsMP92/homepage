@@ -123,7 +123,19 @@ cv:
       - title: Begabtenstipendium des Landes Rheinland-Pfalz
         awarder: State scholarship for talented students at Trier University of Applied Sciences
         date: "2018"
-        summary: Awarded in 2015, 2016, 2017, and 2018 (€2,200 each year).
+        summary: €2,200 scholarship.
+      - title: Begabtenstipendium des Landes Rheinland-Pfalz
+        awarder: State scholarship for talented students at Trier University of Applied Sciences
+        date: "2017"
+        summary: €2,200 scholarship.
+      - title: Begabtenstipendium des Landes Rheinland-Pfalz
+        awarder: State scholarship for talented students at Trier University of Applied Sciences
+        date: "2016"
+        summary: €2,200 scholarship.
+      - title: Begabtenstipendium des Landes Rheinland-Pfalz
+        awarder: State scholarship for talented students at Trier University of Applied Sciences
+        date: "2015"
+        summary: €2,200 scholarship.
 
     Service:
       - bullet: '**Peer reviewer, American Physical Society** — *Physical Review B* and *Physical Review Letters* (May 2026–present).'
