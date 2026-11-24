@@ -49,7 +49,7 @@ nav_order: 4
     <div><span class="pill">Python</span><span class="pill">2D SANS</span><span class="pill">Web app</span></div>
     <div class="card-links">
       <a href="https://adamsmp92.github.io/SANS2D_mode_analyzer_open/">Open web app</a>
-      <a href="https://github.com/AdamsMP92/SANS2D_mode_analyzer_open/tree/v0.1.0">Source · v0.1.0</a>
+      <a href="https://github.com/AdamsMP92/SANS2D_mode_analyzer_open/tree/v0.1.0">GitHub source · v0.1.0</a>
       <a href="https://doi.org/10.5281/zenodo.24253614">Zenodo · v0.1.0</a>
     </div>
     <div class="doi-badge">
@@ -66,7 +66,7 @@ nav_order: 4
     <div><span class="pill">Python</span><span class="pill">Spin dynamics</span><span class="pill">Web app</span></div>
     <div class="card-links">
       <a href="https://adamsmp92.github.io/SWSANS_python/">Open web app</a>
-      <a href="https://github.com/AdamsMP92/SWSANS_python/tree/v0.1.0">Source · v0.1.0</a>
+      <a href="https://github.com/AdamsMP92/SWSANS_python/tree/v0.1.0">GitHub source · v0.1.0</a>
       <a href="https://doi.org/10.5281/zenodo.24280735">Zenodo · v0.1.0</a>
       <a href="https://doi.org/10.1107/S205225252300180X">IUCrJ 10, 261–269</a>
     </div>
@@ -84,7 +84,7 @@ nav_order: 4
     <div><span class="pill">Python</span><span class="pill">Langevin model</span><span class="pill">Web app</span></div>
     <div class="card-links">
       <a href="https://adamsmp92.github.io/LangevinSANS/">Open web app</a>
-      <a href="https://github.com/AdamsMP92/LangevinSANS/releases/tag/v0.1.0">Release · v0.1.0</a>
+      <a href="https://github.com/AdamsMP92/LangevinSANS/releases/tag/v0.1.0">GitHub release · v0.1.0</a>
       <a href="https://doi.org/10.5281/zenodo.24285087">Zenodo · v0.1.0</a>
     </div>
     <div class="doi-badge">
@@ -113,7 +113,7 @@ nav_order: 4
     <div><span class="pill">Python</span><span class="pill">Web app</span><span class="pill">Coils</span></div>
     <div class="card-links">
       <a href="https://adamsmp92.github.io/SolenoidCalculator/">Open web app</a>
-      <a href="https://github.com/AdamsMP92/SolenoidCalculator/tree/v0.1.0">Source · v0.1.0</a>
+      <a href="https://github.com/AdamsMP92/SolenoidCalculator/tree/v0.1.0">GitHub source · v0.1.0</a>
       <a href="https://doi.org/10.5281/zenodo.24265601">Zenodo · v0.1.0</a>
     </div>
     <div class="doi-badge">
